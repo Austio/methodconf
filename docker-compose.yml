@@ -1,0 +1,13 @@
+version: '2'
+services:
+  db:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=methodconf
+      - POSTGRES_PASSWORD=methodconf
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
