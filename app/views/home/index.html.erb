@@ -2,7 +2,7 @@
 <header class="site_header">
   <div class="container">
     <div class="intro">
-      <a href="/"><img src="/images/method_logo.svg" alt="Method Logo"></a>
+      <a href="/"><%= image_tag("method_logo.svg", alt: "Method Logo") %></a>
       <h1>
         <time datetime="2020-03-05 08:00">Thursday, March 5th, 2020</time> in Springfield, MO
       </h1>
@@ -11,8 +11,8 @@
   </div>
 
   <div class="skyline">
-    <img src="/images/skyline.svg" alt="Skyline Graphic">
-    <img src="/images/skyline_mobile.svg" alt="Skyline Graphic">
+    <%= image_tag("skyline.svg", alt: "Skyline Graphic") %>
+    <%= image_tag("skyline_mobile.svg", alt: "Skyline Graphic") %>
   </div>
 </header>
 
@@ -611,7 +611,7 @@
   </div>
 
   <div class="sponsor_banner">
-    <img src="/images/method_logo.svg" alt="Method Conf Logo">
+    <%= image_tag("method_logo.svg", alt: "Method Conf Logo") %>
     <h2 class="light">Interested in becoming a sponsor?</h2>
     <a href="https://sgf.dev/method-sponsor-form" class="button" target="_blank">See Opportunities</a>
   </div>
@@ -644,7 +644,7 @@
 <footer class="site_footer s_container">
   <section>
     <a href="http://sgfflag.org/" class="flag" target="_blank">
-      <img src="/images/sgf_flag.svg" alt="Springfield Flag">
+      <%= image_tag("sgf_flag.svg", alt: "Springfield Flag") %>
     </a>
     <p>
       We ❤️ Springfield. <span>©2020 Springfield Devs. 501(c)6</span>
