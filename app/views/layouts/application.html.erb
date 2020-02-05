@@ -11,5 +11,30 @@
 
   <body>
     <%= yield %>
+
+    <footer class="site_footer s_container">
+      <section>
+        <a href="http://sgfflag.org/" class="flag" target="_blank">
+          <%= image_tag("sgf_flag.svg", alt: "Springfield Flag") %>
+        </a>
+        <p>
+          We ❤️ Springfield. <span>©2020 Springfield Devs. 501(c)6</span>
+        </p>
+      </section>
+
+      <section>
+        <nav class="social">
+          <a href="https://twitter.com/methodconf" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.youtube.com/c/sgfdevs/videos" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://github.com/sgfdevs/" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </nav>
+      </section>
+    </footer>
   </body>
 </html>
