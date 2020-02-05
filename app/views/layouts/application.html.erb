@@ -10,6 +10,23 @@
   </head>
 
   <body>
+    <header class="site_header">
+      <div class="container">
+        <div class="intro">
+          <a href="/"><%= image_tag("method_logo.svg", alt: "Method Logo") %></a>
+          <h1>
+            <time datetime="2020-03-05 08:00">Thursday, March 5th, 2020</time> in Springfield, MO
+          </h1>
+          <h2>An immersive day of code, content, and design</h2>
+        </div>
+      </div>
+
+      <div class="skyline">
+        <%= image_tag("skyline.svg", alt: "Skyline Graphic") %>
+        <%= image_tag("skyline_mobile.svg", alt: "Skyline Graphic") %>
+      </div>
+    </header>
+
     <%= yield %>
 
     <footer class="site_footer s_container">
