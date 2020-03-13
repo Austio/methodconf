@@ -57,4 +57,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "letter_opener_web", "~> 1.4"
 
-gem "administrate", "~> 0.12.0"
+gem "administrate", "~> 0.13.0"
